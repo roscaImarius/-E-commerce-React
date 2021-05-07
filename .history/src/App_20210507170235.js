@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import { Switch, Route } from "react-router-dom";
 
 import React from "react";
-import Shop from "./pages/Shop/Shop";
+import Shop from "./pages/shop/Shop";
 
 function App() {
   return (

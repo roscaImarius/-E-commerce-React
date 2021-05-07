@@ -3,14 +3,14 @@ import HomePage from "./pages/HomePage/HomePage";
 import { Switch, Route } from "react-router-dom";
 
 import React from "react";
-import Shop from "./pages/Shop/Shop";
+import ShopData from "./pages/shop/ShopData";
 
 function App() {
   return (
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/shop" component={Shop} />
+        <Route path="/shop" component={ShopData} />
       </Switch>
     </div>
   );
